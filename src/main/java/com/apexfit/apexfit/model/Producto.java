@@ -5,7 +5,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.Date;
+
+import java.time.LocalDate;
+
 
 @Entity
 @Table(name= "Producto")
@@ -24,11 +26,14 @@ public class Producto {
     @Column(nullable = false)
     private String marca;
 
+    @Column(nullable = false)
+    private double precio;
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private TipoProducto tipo;
 
     @Column(nullable = false)
-    private Date fechaLlegada;
+    private LocalDate fechaLlegada;
 
 }
