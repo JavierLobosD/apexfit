@@ -1,0 +1,38 @@
+-- CREAR PRODUCTO (TIPO-ENUM)
+
+{
+  "nombreProducto": "Proteína Whey Isolada 1kg",
+  "marca": "NutraFit",
+  "precio": 34990,
+  "tipo": "SUPLEMENTO",
+  "fechaLlegada": "2026-05-28"
+}
+
+  -- OTRA CATEGORIA
+  {
+  "nombreProducto": "Cinturón de Levantamiento Cuero",
+  "marca": "IronMax",
+  "precio": 25000,
+  "tipo": "ACCESORIO",
+  "fechaLlegada": "2026-05-28"
+}
+
+-- CREAR CLIENTE (FORMATO AAAA-MM-DD Y @PAST)
+{
+  "rut": "12345678-9",
+  "correo": "leandro.test@apexfit.com",
+  "contraseña": "SecurePassword123",
+  "nombre": "Leandro",
+  "apellido": "Núñez",
+  "fechaNacimiento": "1994-03-15"
+}
+
+--ACTUALIZAR
+{
+  "nombreProducto": "Proteína Whey Isolada 1kg",
+  "marca": "NutraFit",
+  "precio": 38990, 
+  "tipo": "SUPLEMENTO",
+  "fechaLlegada": "2026-05-28"
+}
+
